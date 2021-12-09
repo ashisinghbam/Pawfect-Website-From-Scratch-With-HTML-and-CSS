@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 =62.5*/
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #523414;
+  background-color: #e9be5a;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #523414;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 5.6rem;
+  text-align: center;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.first-fold {
+  background-image: url(img/Pawfect-bg.png);
+  min-height: 80rem;
+}
+
+/* ****************** */
+/* Logo */
+/* ****************** */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+  font-size: 3.6rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #462d12;
+}
+
+/* ****************** */
+/* Navigation */
+/* ****************** */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #462d12;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.main-nav-link.nav-cta {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #523414;
+}
+
+/* ****************** */
+/* Hero section */
+/* ****************** */
+.section-hero {
+  padding: 15rem 0 9.6rem;
+}
+
+.hero {
+  max-width: 75rem;
+  padding: 0 9.6rem;
+  align-items: left;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin: 4.8rem 0;
+}
+
+/* ****************** */
+/* Our Services */
+/* ****************** */
+.our-services {
+  padding: 9.6rem 0;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.5rem 3.2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.services img {
+  width: 80%;
+  border-radius: 9px;
+}
+
+/* ****************** */
+/* About Us */
+/* ****************** */
+
+.grid-about {
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 0;
+  filter: drop-shadow(0px 12px 16px rgba(0, 0, 0, 0.2));  
+}
+
+.about {
+  padding: 2rem 0 7rem 0;
+}
+
+.about img {
+  width: 98%;
+  justify-self: end;
+  border-radius: 9px;
+}
+
+.about p {
+  font-size: 2.2rem;
+}
+
+.text {
+  max-width: 45rem;
+  background-color: #e7ac21;
+  padding: 10rem 5rem;
+  margin-left: -5rem;
+  border-radius: 9px;
+}
+
+.text h2 {
+  margin-bottom: 4.5rem;
+  text-align: center;
+}
+
+/* ****************** */
+/* Footer */
+/* ****************** */
+
+footer {
+  text-align: center;
+  background-color: #e7ac21;
+  padding: 2.5rem;
+}
